@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glowing:hover{
+    box-shadow: 0 0 5px #fff, 0 0 10px hsl(150, 100%, 66%), 0 0 10px hsl(150, 100%, 66%),
+    0 0 20px hsl(150, 100%, 66%);
+}
